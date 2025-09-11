@@ -1,0 +1,39 @@
+.displaySongs{
+    display:flex;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+.info {
+    padding: 10px;
+    width: 80%;
+}
+
+.info h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info h2 {
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.addSong{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+a h1{
+    cursor: pointer;
+    transition: color 1s linear 0ms;
+}
+
+a h1:hover{
+    color: rgb(62, 60, 60);
+}

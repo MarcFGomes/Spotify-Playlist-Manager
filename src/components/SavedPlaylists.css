@@ -1,0 +1,20 @@
+.savedPlaylists{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.playlistResults{
+    max-height: calc(100% - 60px);     /* or any height you want */
+    overflow-y: auto;
+    
+}
+
+
+
+.savedPlaylists h1{
+    font-size: 32px;
+    color: white;
+    
+}

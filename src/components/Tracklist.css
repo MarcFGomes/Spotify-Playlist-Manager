@@ -1,0 +1,47 @@
+.headerResults{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    padding: 10px;
+    position: relative;
+  
+    
+}
+
+.listOfTracks{
+      max-height: calc(100% - 180px);      /* or any height you want */
+    overflow-y: auto;
+}
+
+
+h1{
+    opacity: 1;
+    color: white;
+}
+
+.add {
+    width: 95%;
+    height: 100px;
+    text-align: center;
+    
+    position: absolute;
+    bottom: 0px;
+    padding-top:20px;
+}
+
+button {
+    background-color: rgb(80, 14, 168);
+    width: 35%;
+    
+}
+
+.playlistNameInput {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 32px;
+  background-color: transparent;
+  color:white;
+}

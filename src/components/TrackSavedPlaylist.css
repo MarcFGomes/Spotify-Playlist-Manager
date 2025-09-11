@@ -1,0 +1,34 @@
+.track-saved-playlist{
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.displaySavedPlaylists {
+    padding: 10px;
+    width: 80%;
+}
+
+.displaySavedPlaylists h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.deletePlaylist{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+a h1{
+    cursor: pointer;
+    transition: color 1s linear 0ms;
+}
+
+a h1:hover{
+    color: rgb(62, 60, 60);
+}

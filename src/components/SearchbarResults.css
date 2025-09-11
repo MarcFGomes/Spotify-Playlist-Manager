@@ -1,0 +1,21 @@
+.headerResults{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.songResults{
+    max-height: calc(100% - 60px);     /* or any height you want */
+    overflow-y: auto;
+    
+}
+
+
+
+.headerResults h1{
+    font-size: 32px;
+    color: white;
+    
+}
+
