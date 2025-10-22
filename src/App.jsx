@@ -144,7 +144,7 @@ const [saveProgress, setSaveProgress] = useState(0);
       </div>
       
       <div className='body'>
-        <img className="headerImg" src="./public/background_photo_desktop.jpg" alt="Background"/>
+        <img className="headerImg" src="/background_photo_desktop.jpg" alt="Background"/>
         <div className='overlay'>
           <div className='searchBarWrapper'>
             <Searchbar onSearch={searchForSong}/>
